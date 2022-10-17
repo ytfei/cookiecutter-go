@@ -1,0 +1,27 @@
+{
+    "app_name": "current_app_name",
+    "repo_name": "repo_folder_name",
+    "app_go_module_name": "go_mod_name",
+    "app_relative_path": "project/root/path/to/here",
+
+
+    "framework_type": [
+        "go-micro",
+        "gin"
+    ],
+    "db_type": "mysql",
+    "orm_type": [
+        "gorm",
+        "xorm"
+    ],
+    "cache_type": "redis",
+    "mq_type": [
+        "kafka",
+        "rabbitmq",
+        "nsq",
+        "nat"
+    ],
+    "use_grpc": "y",
+    "use_http": "y",
+    "version": "0.1.0"
+}
